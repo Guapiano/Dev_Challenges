@@ -28,10 +28,8 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
@@ -49,5 +47,5 @@
 ## Contact
 
 - LinkedIn [Demian Pabst Guapiano](https://{https://www.linkedin.com/in/demianpabst/})
-- GitHub [@your-username](https://{https://github.com/Guapiano})
+- GitHub [Guapiano](https://{https://github.com/Guapiano})
 
