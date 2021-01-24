@@ -138,7 +138,7 @@
 .row_1{
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     justify-content: space-between;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .btn_and_apartment_description button{
-    padding: 8px;
+    padding: 6px;
     font-size: 12px;
     color: #4f4f4f;
     font-weight: 700;
@@ -319,7 +319,7 @@
 }
 
 .row_2_btn_and_apartment_description button{
-    padding: 8px;
+    padding: 6px;
     font-size: 12px;
     color: #4f4f4f;
     font-weight: 700;
@@ -383,4 +383,83 @@
     color: #333333;
     font-weight: 600;
     font-family: 'Montserrat',sans-serif;
+}
+
+@media(max-width: 420px){
+    .hd_contents{
+        padding: 10px;
+    }
+    .app_logo{
+        width: 90px;
+    }
+    .location_and_search{
+        width: 265px;
+    }
+    .location p{
+        font-size: 12px;
+    }
+    .places_hd_contents{
+        padding: 10px;
+    }
+    .places_hd_contents h2{
+        font-size: 20px;
+    }
+    .row_1{
+        flex-direction: column;
+    }
+    .first_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .first_card{
+        width: 100%;
+    }
+    .second_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .second_card{
+        width: 100%;
+    }
+    .third_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .third_card{
+        width: 100%;
+    }
+    .row_2{
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .row_2_first_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .row_2_first_card{
+        width: 100%;
+    }
+    .row_2_second_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .row_2_second_card{
+        width: 100%;
+    }
+    .row_2_third_card_container{
+        width: 95%;
+        margin-bottom: 35px;
+    }
+    .row_2_third_card{
+        width: 100%;
+    }
+}
+
+@media(max-width: 380px){
+    .location_and_search{
+        width: 250px;
+    }
+    .location p{
+        font-size: 10px;
+    }
 }
