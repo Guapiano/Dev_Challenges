@@ -47,8 +47,8 @@
     height: 100%;
     display: flex;
     font-size: 12px;
-    align-items: center;
     font-weight: 400;
+    align-items: center;
     justify-content: center;
     border-right: 1px solid #f2f2f2;
     font-family: 'Mulish',sans-serif;
@@ -128,9 +128,17 @@
     font-weight: 500;
 }
 
+.cards_contents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .row_1{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
     justify-content: space-between;
 }
 
@@ -156,12 +164,12 @@
     justify-content: space-between;
 }
 
-.btn_and_appartament_description{
+.btn_and_apartment_description{
     display: flex;
     align-items: center;
 }
 
-.btn_and_appartament_description button{
+.btn_and_apartment_description button{
     padding: 8px;
     font-size: 12px;
     color: #4f4f4f;
@@ -172,7 +180,7 @@
     font-family: 'Montserrat',sans-serif;
 }
 
-.btn_and_appartament_description p{
+.btn_and_apartment_description p{
     font-size: 12px;
     color: #828282;
     font-weight: 500;
@@ -224,11 +232,11 @@
     justify-content: space-between;
 }
 
-.appartament_description{
+.apartment_description{
     padding: 8px 0px 8px 0px;
 }
 
-.appartament_description p{
+.apartment_description p{
     font-size: 12px;
     color: #828282;
     font-weight: 500;
@@ -243,6 +251,135 @@
 }
 
 .second_card_container .description{
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.third_card_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.third_card{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://www.figma.com/file/KGNH8dbclXT1vzXLyPrBeu/image/4a71fcc6d7e63a8c66f78424b9d9d86cd04c55be');
+}
+
+.third_informations{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.third_card_container .description{
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.row_2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.row_2_first_card_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row_2_first_card{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/92f3/2f24/b6e4094390d761e8143c939feb11528c?Expires=1612137600&Signature=P1OYrW18ZeePkDgJjcHr2f8j03Rd~JSGX-L81gizOxrSpdKMkePySCFdO8fUqhKjVvJh6RLJyjEm1iJsNKxrk36SV-PL1sYJdZxEY00PgZy5A5OjBBYzBTRZqPfbrbyrV0fMyXudaoNNSjyQb3OpF2ARwNmH6yi2rpGq3Wv9wdpw6DU-QSk-zK8-iHSIMvJMQTqbK6gLnD8sYP-caF26mWUqLqRGlQRMVCbTThEL9ZIwqngvwTj~uiFDulGYfiN8e0Si-sMw4wmnMcepH2EnLCix8JJYy3jkxNFIWP7DA-YiQLvf8VqO0owp66Wa1Va7WFqfixQuquyUd9vcg1sQ1g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+}
+
+.row_2_informations{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.row_2_btn_and_apartment_description{
+    display: flex;
+    align-items: center;
+}
+
+.row_2_btn_and_apartment_description button{
+    padding: 8px;
+    font-size: 12px;
+    color: #4f4f4f;
+    font-weight: 700;
+    border-radius: 12px;
+    border: 1px solid #4f4f4f;
+    background-color: transparent;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.row_2_btn_and_apartment_description p{
+    font-size: 12px;
+    color: #828282;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.row_2_first_card_container .description{
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.row_2_second_card_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row_2_second_card{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/debf/3f6b/aae9332a8a1292bf1a69e3140ffde6f2?Expires=1612137600&Signature=C2Qhi8KbgvzD54W-Dt~tAmHrKTqsVFm~XNlTkJ7Gg6OtKyQoIlXc~uu8GXJiG8XYyJB-7oqtFEttvSB4uUR2cbPk3CuvYnM1wKYNOVFsL6XUHznQhNlz56~VuOfC2pxmvnYxmZoqFEBh4dQ6vLlExDIdrOMN3fQAFANbcmGL9HVbdtzRlWAF39Ljvm9PrftKHtqZQk0aTqp-8E8Xawgll7AwMsEg~6e1tskdgyP4-jc4IoWt8xQhXc4EYEloHCFPlSPwRJjfT-LFJJi44H1aUt~nYBCzHPutMnFyjpbwYKOp72UCQIoMlgVP2j-jBkcy2e7SdRgPsm~3trjg83tDGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+}
+
+.row_2_second_card_container .description{
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.row_2_third_card_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row_2_third_card{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/fca8/5c5f/345f89c48f0d516d9b3515aecacf9b80?Expires=1612137600&Signature=Ra9GmL~7wt5dm2gqdHuMTSRa~8YdKjVNFT2VYziO2eGKxk-Cey0-iMrsUNkkLFN66KnFHCkIy~YBQQoLowzhcBIY66X9wd1x2m9uvjVhuhrzsoBHnaNOvcHzulz-R~6seJiId8LKlL~Rf5CI0Wjz7YswigVXOAUMgbon9xOvsvddAEy~xVmvlsNZumSgmpFjT-QMW-VaaAT2ClOoYmH8DOpsTfgKVZOXpyJjrlv~~muXE~SdIlM~LmEd0RwBeVejM-px0Nr9tSRKiOOHI8rMWUTBBFDwOkBGOvGALI~MyFzlLa7~LdIaJj1VLpSQWyfxhaV1QBKpovgWa3IF1M4rMQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+}
+
+.row_2_third_card_container .description{
     color: #333333;
     font-weight: 600;
     font-family: 'Montserrat',sans-serif;
